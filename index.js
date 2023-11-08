@@ -4,7 +4,10 @@ const navList = document.querySelectorAll('.nav-list');
 const navLinks = document.querySelectorAll('.nav-link');
 const logo = document.querySelector('.logo0');
  
-
+const footerSpan = document.querySelector('.year-span');
+const date = new Date();
+const year = date.getFullYear();
+footerSpan.textContent = year;
 function mobileNav(){
     navLists.classList.toggle('hide');
     navLists.style.backgroundColor = '#fff';

@@ -108,7 +108,7 @@ nav {
     border-radius: 5px;
     padding: .9rem;
     border: 0;
-    width: 30%;
+    width: 40%;
     font-size: 1.1rem;
     margin-top: 1rem;
     transition: 400ms ease-in;
@@ -175,7 +175,7 @@ iframe:hover {
 }
 
 .team {
-    width: 50%;
+    width: 45%;
     display: block;
     margin: 0 auto;
 }
@@ -224,7 +224,6 @@ iframe:hover {
 
 .overlay {
     padding: 1rem .6rem;
-    /* position: absolute; */
     top: 8rem;
     left: 0;
     right: 0;
@@ -236,7 +235,9 @@ iframe:hover {
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
  
-
+.img-flex img{
+    border: 2px solid red;
+}
 /* Contact */
 .input-container {
     width: 100%;
@@ -311,7 +312,10 @@ textarea {
     .hero-section {
         clip-path: polygon(0 1%, 100% 0, 100% 100%, 0 78%);
     }
-
+    /* HERO */
+    #about .hero-btn{
+       width: 30%;
+   }
     .menu {
         display: none;
     }
@@ -346,7 +350,7 @@ textarea {
         font-size: 2rem;
 
     }
-
+    
     .intro-flex a {
         font-size: 1rem;
     }
