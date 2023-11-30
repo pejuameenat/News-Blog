@@ -236,7 +236,7 @@ iframe:hover {
 }
  
 .img-flex img{
-    border: 2px solid red;
+    border: 1px solid navy;
 }
 /* Contact */
 .input-container {
@@ -381,7 +381,7 @@ textarea {
     }
 
     .team {
-        width: 12%;
+        width: 15%;
     }
 
     /* card-hover state */
